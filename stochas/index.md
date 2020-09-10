@@ -1,12 +1,7 @@
 ---
-layout: post
-order: 4
-title: "Stochas"
-summary: Stochas is a probabilistic polyrhythmic sequencer plugin
-featured-img: stochas
-categories: [Sequencer, Plugin]
+layout: stochas/default
+title: Stochas
 ---
-
 ## Overview
 - Stochas is a previously commercial software that is now open source
 - If you are an existing customer of Audio Vitamins please be aware that they will no longer be providing support for this product. Please open an issue in the issue tracker.
@@ -42,6 +37,3 @@ categories: [Sequencer, Plugin]
 
 ## History
 Stochas was originally developed as closed source software back in 2016 and was made available for sale by Audio Vitamins. The original idea sprang from a JSFX plugin (Reaper plugin) created by Andrew Shakinovsky called Stochasticizer which allowed semi-random sequencing of melodic and drum lines. Andrew was contacted by Dave Clissold of Audio Vitamins who suggested creating a plugin that would work in any DAW. The two worked together to design the product which was released a few months later. Due to lack of time to devote to marketing a commercial product, in 2020 it was decided to release the software as open source in the hope that it would be useful to music producers around the world.
-
-
-

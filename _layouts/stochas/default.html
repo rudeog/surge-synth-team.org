@@ -27,17 +27,20 @@ layout: compress
     </div>
 
     <main class="site__content">
+      <section class="page-content">
+        {{content}}
+      </section>
       <section class="blog">
         <div class="container">
           <div class="post-list" itemscope="" itemtype="http://schema.org/Blog">
 
             {% assign sorted_posts = site.posts | sort: 'order' %}
             {% for post in sorted_posts %}
-              {% unless post.categories contains 'stochas' %}
+              <!-- this will include only posts in the stochas folder (not sure a better way) -->
+              {% if post.categories contains "stochas" %} 
                 {% include card.html %}
-              {% endunless %}
+              {% endif %}
             {% endfor %}
-            
 
             <!-- {% include pagination.html %} -->
           </div>
